@@ -1,0 +1,238 @@
+/*setting all elements to have zero padding and zero margin*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*sets the background color of the page*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*sets the padding, display, font style, font color and background color of the header*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Sets the display and text size of h1*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*change the color of a few characters in h1*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*provides display, padding, margin, font style and size to nav*/
+header nav {
+    display: inline-flex;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*gives no style to the list in nav*/
+header nav ul {
+    list-style-type: none;
+}
+
+/*lines text next to each other and sets margoin*/
+header nav ul li {
+    display:inline-block;
+    margin-left: 25px;
+}
+
+/*sets text color to white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/*font size for text in paragraph*/
+p {
+    font-size: 16px;
+}
+
+/*sets height and width, margin, position, and image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*elements floats to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*elements floats to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*sets width*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/**/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*sets margin and text color*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*sets margin and text color*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*sets margin and text color*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*sets margin and centers text*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*sets margin and centers text*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*sets margin and centers text*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*element displayed as a block, sets margin, and max width */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*element displayed as a block, sets margin, and max width*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*element displayed as a block, sets margin, and max width*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*sets margin, padding, height, font style, background color, and text color of all search-engine-optimization class*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*sets margin, padding, height, font style, background color, and text color of all online-reputation-management class*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*sets margin, padding, height, font style, background color, and text color of all social-media-marketing class*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*sets max height for img in all search-engine-optimization class*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*sets max height for img in all online-reputation-management class*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*sets max height for img in all social-media-marketing class*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*sets margin and font size for h2 in all search-engine-optimization class*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*sets margin and font size for h2 in all online-reputation-management class*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*sets margin and font size for h2 in all social-media-marketing class*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*sets the padding, font style, and centers text */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*sets font size of h2 in footer*/
+.footer h2 {
+    font-size: 20px;
+}
